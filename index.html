@@ -3,13 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Projects</title>
+    <title>Homework 1</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <h1>Welcome to My GitHub Pages</h1>
-    <ul>
-      <li><a href="page-1/">page 1</a></li>
-      <li><a href="page-2/">page 2</a></li>
-    </ul>
+    <div class="flex flex-col justify-center items-center">
+      <h1 class="mt-15">Select Pages to Render It</h1>
+      <div class="flex flex-col items-start mt-10">
+        <button class="bg-blue-500 rounded-lg py-2 px-5">
+          <a href="page-1/">Page 1</a>
+        </button>
+        <button class="bg-blue-500 rounded-lg py-2 px-5 mt-5">
+          <a href="page-2/">Page 2</a>
+        </button>
+      </div>
+    </div>
   </body>
 </html>
